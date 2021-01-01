@@ -1,0 +1,132 @@
+# Site
+repository: derkmed/derkmed.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Derek Ahmed
+title: Software Engineer / Aspiring Scientist
+email: derekhmd@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: facespics
+github_username: derkmed
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: derkmed
+linkedin_username: derekahmed
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: channel/UCGwG4iTL0Dng_2b1nt1k1MQ
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Welcome! My name is Derek and I am a software engineer for Amazon Music. I am very interested in music technology and reinforcement learning (particularly with its applications in recommender systems). Although not a researcher, I enjoy reading research papers and am always happy to help others. Please feel free to reach out for course advice, career advice, or networking :)
+
+  I am most skilled in: <mark>Java</mark>, <mark>Python</mark>, <mark>C (from a past life)</mark> and <mark>Reinforcement Learning</mark>
+
+content:
+  - title: Experience 
+    layout: list 
+    content:
+      - layout: left
+        title: Amazon Music
+        link: music.amazon.com/
+        # link_text: boringcompany.com
+        sub_title: Software Development Engineer on the Music Data Quality Team
+        caption: Jan 2020 - Present
+        quote: >
+         Detecting and mitigating data quality issues for your music streaming experience! 
+        description: | # this will include new lines to allow paragraphs
+           I work with mitigation (e.g. metadata quality enrichment and data sanitization) and detection (e.g. leveraging anomaly detection) of data quality issues.
+
+      - layout: left
+        title: Clarivate Analytics
+        link: clarivate.com
+        sub_title: Software Engineer on the Data Science Team
+        caption: Jan 2018 - Dec 2020
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Worked on language-related projects involving search typeahead, text summarization, keyword retrieval, name-scraping from researcher emails via CRF, large-scale approximative similarity search of research publication document embeddings and custom pre-processing for author identity disambiguation through clustering
+
+      - layout: left
+        title: Arista
+        link: arista.com
+        sub_title: Software Engineer intern on the Platform Team
+        caption: Jun 2017 - Aug 2017
+        # quote: >
+        description: |
+         Implemented a means for better field upgradability via SMBUS/I2C Protocols of the FPGA rear card that interfaces between the CPU and peripherals in a new line of network switches.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: UC Berkeley
+        caption: 2013 - 2017
+        sub_title: BS Computer Science & BS Economics
+        description: | # this will include new lines to allow paragraphs
+          I held many interests throughout my undergrad years, but if I had to sum up my main areas of focus, they would be computer architecture and behavioral economics. During my college years, I really enjoyed reading some of Richard Thaler's works and really admired some of the greats in computer architecture & engineering (David Patterson & Rand Katz).
+
+          I spent a lot of my free time as a teaching assistant, tutor, recreational triathlete.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <b>Tools of Trade</b>
+      - Everything JetBrains (IntelliJ, PyCharm, DataGrip) with Vim Emulation
+      - Jupyter or DataBricks for Notebooks
+
+      <b>What I'm Reading</b>
+      - Papers on Distributional Reinforcement Learning
+      - <a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X">"The Book of Why" by Judea Pearl</a>
+
+      <b>Hobbies & Other Interests</b>
+      - Music Production: yet to figure out Ableton & make use of my MIDI Fighter
+      - Cycling ( 2016 Cannondale CAAD12, RIP 2014 Cannondale SuperSix Evo :( )
+      - Snowboarding ( 2019 LibTech T Rice Orca )
+      - Gaming: used to really enjoy Starcraft, Overwatch, Smash Bros & competitive Pokemon battling. I am also very interested in AI for all of those, except for Overwatch! 
+
+
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

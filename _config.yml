@@ -47,20 +47,30 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Welcome! My name is Derek and I am a software engineer for Amazon Music. I am very interested in music technology and reinforcement learning (particularly with its applications in recommender systems). Although not a researcher, I enjoy reading research papers and am always happy to help others. Please feel free to reach out for course advice, career advice, or networking :)
+  Welcome! My name is Derek and I am a software engineer. Please feel free to reach out for course advice, career advice, or networking!
 
-  I am most skilled in: <mark>Java</mark>, <mark>Python</mark>, <mark>C (from a past life)</mark> and <mark>Reinforcement Learning</mark>
+  I am most skilled in: <mark>Java</mark>, <mark>Python</mark>, <mark>C</mark> and <mark>Reinforcement Learning</mark>
 
 content:
   - title: Experience 
     layout: list 
     content:
+    - layout: left
+        title: Google / YouTube
+        link: youtube.com
+        # link_text: boringcompany.com
+        sub_title: Software Engineer on the LearnX Data & ML Team
+        caption: Nov 2021 - Present
+        quote: >
+         Building features & classifiers for lifelong learners across Google and YouTube
+        description: | # this will include new lines to allow paragraphs
+           I work in the Data & ML pod where we primarily build classifiers to promote and detect educational / upskilling content.
       - layout: left
         title: Amazon Music
         link: music.amazon.com/
         # link_text: boringcompany.com
         sub_title: Software Development Engineer on the Music Data Quality Team
-        caption: Jan 2020 - Present
+        caption: Jan 2020 - Oct 2021
         quote: >
          Detecting and mitigating data quality issues for your music streaming experience! 
         description: | # this will include new lines to allow paragraphs
